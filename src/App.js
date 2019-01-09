@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <Example />
-          <Widget>Widget</Widget>
+          <Widget>app component</Widget>
         </header>
       </div>
     );
