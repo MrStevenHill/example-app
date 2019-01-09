@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import { Example } from "lib";
+import { Example } from "example-lib";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 const Widget = styled.div`
@@ -15,9 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <Example />
-
           <Widget>Widget</Widget>
         </header>
       </div>
